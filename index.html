@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="loader"></div>
+
+    <section class="cd-horizontal-timeline">
+        <div class="timeline">
+            <div class="events-wrapper">
+                <div class="events">
+                    <ol>
+                        <li><a href="#0" data-date="16/01/2014" class="selected">Présentation</a></li>
+                        <li><a href="#0" data-date="20/04/2014">25 Mai</a></li>
+                        <li><a href="#0" data-date="20/05/2014">4 Août</a></li>
+                        <li><a href="#0" data-date="30/08/2014">2020</a></li>
+                    </ol>
+
+                    <span class="filling-line" aria-hidden="true"></span>
+                </div>
+
+            </div>
+
+
+            <ul class="cd-timeline-navigation">
+                <li><a href="#0" class="prev inactive">Prev</a></li>
+                <li><a href="#0" class="next">Next</a></li>
+            </ul>
+        </div>
+
+        <div class="events-content">
+            <ol>
+                <li class="selected" data-date="16/01/2014">
+                    <h2>Webdocumentaire 2020</h2>
+                    <em>Rétrospective</em>
+
+                    <p>
+                        L'année 2020 est une année riche en émotions, de nombreux événements s'enchaînent sans arrêt, tous autant dramatiques les uns que les autres. L'attention va être portée sur seulement les 3 principaux événements qui semblent être les plus importants de
+                        cette année.
+                    </p>
+                </li>
+
+
+
+                <li data-date="20/04/2014">
+                    <h2>George Floyd</h2>
+                    <em>25 Mai 2020</em>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/ttBSg0peAhc" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                    </div>
+                    <p>
+                        La mort de George Floyd lors de son arrestation par la police est un événement sombre de cette année 2020. Il déclencha une vague de protestations anti-racistes dans le monde entier et le mouvement "Black Lives Matter" fit son apparition.</p>
+                </li>
+
+                <li data-date="20/05/2014">
+                    <h2>Port de Beyrouth</h2>
+                    <em>4 Août 2020</em>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/u1j7-_2Tjm4" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                    </div>
+                    <p>
+                        L'année 2020 est marquée par une importante explosion ayant lieu au port de Beyrouth, la capitale du Liban. Cet événement daté du 4 aout à 18h, engendra de nombreux dégats matériels et humains. </p>
+                </li>
+
+
+
+                <li data-date="30/08/2014">
+                    <h2>Confinement</h2>
+                    <em>2020</em>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/3NlsQyHxDsw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                    </div>
+                    <p>
+                        L'événement majeur de l'année 2020 n'est autre que le confinement, déclenché par l'arrivée du Covid-19, l'entièreté de la France s'est vue plongée dans une période d'isolement difficile pour le bien de la santé publique. </p>
+                </li>
+
+            </ol>
+        </div>
+        <!-- .events-content -->
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
